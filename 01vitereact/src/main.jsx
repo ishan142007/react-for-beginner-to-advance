@@ -10,6 +10,10 @@ const reactElement= React.createElement(
 )
 createRoot(document.getElementById('root')).render(
     // reactElement
+    <>
     <App />
+    
+    </>
+
  
 )
