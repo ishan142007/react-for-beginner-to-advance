@@ -17,10 +17,18 @@ function name should be capital
 file name should be capitalized too.
 
 
-chai aur react | ishan patel |to we learned about the set up of react and how to clean or project to work efficently.we have to remove all the files which are not in our use or we dont know a hang of them and with the they are not playing a vital role in the functioning of the code.
+9)chai aur react | ishan patel |to we learned about the set up of react and how to clean or project to work efficently.we have to remove all the files which are not in our use or we dont know a hang of them and with the they are not playing a vital role in the functioning of the code.
 
 
-{expression}->this is evaluated expression.
+10){expression}->this is evaluated expression.
 so when we use this in react we have to write the final ouput in it beacuse the variable in react are added after the formation of virtual dom tree and after that they are used as it is so it is syntax error for js to use any operation directly in object
 
-babel converts the react.createElement( )into the react syntax
+11)babel converts the react.createElement( )into the react syntax or we can say babel is the parser which parse the code of html,css and js into react code.It kind of inject the html code .
+
+12)in classical js we have if we want the same value in mutiple palces then we have to make to many references at a time which is tiresome and hectic so react solve this problem really easily but for this it control the ui on its own and to make these changes we have to use hooks .
+
+13)hooks->usestate is a hook 
+hook is a type of function which was defined by the library maker for doing certain task like the usestate hook.
+if you need any hook study the documentation for once to find it.Or you can reach out the github for react library and read the hooks .
+
+14)virtual DOM->

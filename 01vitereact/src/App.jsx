@@ -1,5 +1,5 @@
 import Rup from "./new.jsx"
-
+import './style.css'
 
 function App() {
   const user={
