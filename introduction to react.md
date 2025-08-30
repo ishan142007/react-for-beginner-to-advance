@@ -31,4 +31,34 @@ so when we use this in react we have to write the final ouput in it beacuse the 
 hook is a type of function which was defined by the library maker for doing certain task like the usestate hook.
 if you need any hook study the documentation for once to find it.Or you can reach out the github for react library and read the hooks .
 
-14)virtual DOM->
+14)createroot is the method which cretes a virtual dom and it just repaint the things which we change rather then the whole dom of the browser which changes the whole dom after every small change (page reload).
+
+14)what is reconciliation->the algorithm react uses to diffrentiate one tree with another to determine which parts need to be changed.
+Reconciliation is the algorithm behind what is popularly understood as the "virtual DOM".
+
+15)A high-level description goes something like this: when you render a React application, a tree of nodes that describes the app is generated and saved in memory. This tree is then flushed to the rendering environment(like the object we created for anchor tag being flushed by the .render to the rendering environment  ) — for example, in the case of a browser application, it's translated to a set of DOM operations. When the app is updated (usually via setState), a new tree is generated. The new tree is diffrentiated with the previous tree to compute which operations are needed to update the rendered app.
+16)Although Fiber is a ground-up rewrite of the reconciler, the high-level algorithm described in the React docs will be largely the same.
+
+The key points are:-
+
+a)Different component types are assumed to generate substantially different trees. React will not attempt to diff them, but rather replace the old tree completely.
+
+b)Diffing of lists is performed using keys. Keys should be "stable, predictable, and unique."
+
+scheduling is the process when work should be performed.
+
+17)what is Fibre?
+Fibers are a much lower-level abstraction than application developers typically think about.
+the primary goal of fibre is to take advantage of scheduling.
+a)pause work and come back to it later.
+b)assign priority to different types of work.
+c)reuse previously completed work.
+d)abort work if it's no longer needed.
+in order to do any of this, we first need a way to break work down into units.In one sense,that's what fibre is .a fibre represents a unit of work.
+
+18)added tailwind css to the code with reading its documentation (click on get strated and then followed the steps for vite )
+
+19)video 8 is important
+20)onclick always demand a function ,not the returned value of function so when we pass a function without parameters thwn also it will take the function with name but if you have to pass the parameters too to the function then you have to pass that function in a another function [onclick{()=>{setcolor("red")}}].
+so we are passing a callback.
+
