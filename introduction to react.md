@@ -55,3 +55,10 @@ b)assign priority to different types of work.
 c)reuse previously completed work.
 d)abort work if it's no longer needed.
 in order to do any of this, we first need a way to break work down into units.In one sense,that's what fibre is .a fibre represents a unit of work.
+
+18)added tailwind css to the code with reading its documentation (click on get strated and then followed the steps for vite )
+
+19)video 8 is important
+20)onclick always demand a function ,not the returned value of function so when we pass a function without parameters thwn also it will take the function with name but if you have to pass the parameters too to the function then you have to pass that function in a another function [onclick{()=>{setcolor("red")}}].
+so we are passing a callback.
+
