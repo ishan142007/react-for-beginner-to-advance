@@ -62,3 +62,11 @@ in order to do any of this, we first need a way to break work down into units.In
 20)onclick always demand a function ,not the returned value of function so when we pass a function without parameters thwn also it will take the function with name but if you have to pass the parameters too to the function then you have to pass that function in a another function [onclick{()=>{setcolor("red")}}].
 so we are passing a callback.
 
+21)read usecallback hook in react docs
+usecallback use hota hai ki aagr meri dependencies me kuch change hua hai toh change kardo jitna change hua hai utna baaki jo hai usse aaise hi use karlo .
+
+22)read useEffect hook from docs 
+useEffect koi bhi chota sa change hone par re render karta hai yahi deffrence hai useEffect aur useCallback me 
+23)useRef hook read from docs
+useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue).The returned object will persist for the full lifetime of the component.
+yeh jab use aata hai jab hume kisi bhi chiz kaa refrence lena hota hai .
