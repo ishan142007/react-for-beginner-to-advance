@@ -17,7 +17,7 @@ function name should be capital
 file name should be capitalized too.
 
 
-9)chai aur react | ishan patel |to we learned about the set up of react and how to clean or project to work efficently.we have to remove all the files which are not in our use or we dont know a hang of them and with the they are not playing a vital role in the functioning of the code.
+9)chai aur react | ishan patel |today we learned about the set up of react and how to clean or project to work efficently.we have to remove all the files which are not in our use or we dont know a hang of them and with the they are not playing a vital role in the functioning of the code.
 
 
 10){expression}->this is evaluated expression.
@@ -31,7 +31,7 @@ so when we use this in react we have to write the final ouput in it beacuse the 
 hook is a type of function which was defined by the library maker for doing certain task like the usestate hook.
 if you need any hook study the documentation for once to find it.Or you can reach out the github for react library and read the hooks .
 
-14)createroot is the method which cretes a virtual dom and it just repaint the things which we change rather then the whole dom of the browser which changes the whole dom after every small change (page reload).
+14)createroot is the method which cretes a virtual dom and it just repaint the things which we change rather then, the whole dom of ,the browser which  changes the whole dom after every small change (page reload).
 
 14)what is reconciliation->the algorithm react uses to diffrentiate one tree with another to determine which parts need to be changed.
 Reconciliation is the algorithm behind what is popularly understood as the "virtual DOM".
@@ -59,7 +59,7 @@ in order to do any of this, we first need a way to break work down into units.In
 18)added tailwind css to the code with reading its documentation (click on get strated and then followed the steps for vite )
 
 19)video 8 is important
-20)onclick always demand a function ,not the returned value of function so when we pass a function without parameters thwn also it will take the function with name but if you have to pass the parameters too to the function then you have to pass that function in a another function [onclick{()=>{setcolor("red")}}].
+20)onclick always demand a function ,not the returned value of function so when we pass a function without parameters then also it will take the function with name but if you have to pass the parameters too to the function then you have to pass that function in a another function [onclick{()=>{setcolor("red")}}].
 so we are passing a callback.
 
 21)read usecallback hook in react docs
@@ -69,4 +69,7 @@ usecallback use hota hai ki aagr meri dependencies me kuch change hua hai toh ch
 useEffect koi bhi chota sa change hone par re render karta hai yahi deffrence hai useEffect aur useCallback me 
 23)useRef hook read from docs
 useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue).The returned object will persist for the full lifetime of the component.
-yeh jab use aata hai jab hume kisi bhi chiz kaa refrence lena hota hai .
+yeh jab use aata hai jab hume kisi bhi chiz kaa refrence lena hota hai.
+We can create custom hooks in react by making them in js with the help of functions .thoda aaise samjho ki custom hook a funtion hi hai jo kuch value return kar rha hai.
+so we created a usecurrencyinfo hook (custom hook) usse baad humne usse export default karliya (function ko) it is syntax .
+Video 11 is a bit harder 
